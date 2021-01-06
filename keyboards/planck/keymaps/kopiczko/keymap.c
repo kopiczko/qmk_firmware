@@ -80,8 +80,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_LOWER] = {
   { KC_TILD,   ___x___,     KC_QUOT,     KC_LCBR,  KC_RCBR,  ___x___,  ___x___,  KC_7,  KC_8,     KC_9,     KC_MINS,  KC_PLUS },
   { KC_LCTRL,  KC_BSLS,     S(KC_QUOT),  KC_LPRN,  KC_RPRN,  KC_CIRC,  KC_AMPR,  KC_4,  KC_5,     KC_6,     KC_UNDS,  KC_EQL  },
-  { ___x___,   S(KC_BSLS),  KC_GRV,      KC_LBRC,  KC_RBRC,  ___x___,  ___x___,  KC_1,  KC_2,     KC_3,     KC_ASTR,  KC_SLSH },
-  { ___x___,   ___x___,     ___x___,     ___x___,  ___x___,  ___x___,  ___x___,  KC_0,  ___x___,  KC_VOLD,  KC_VOLU,  ___x___ }
+  { _______,   S(KC_BSLS),  KC_GRV,      KC_LBRC,  KC_RBRC,  ___x___,  ___x___,  KC_1,  KC_2,     KC_3,     KC_ASTR,  KC_SLSH },
+  { _______,   _______,     _______,     _______,  _______,  _______,  _______,  KC_0,  ___x___,  KC_VOLD,  KC_VOLU,  ___x___ }
 },
 
 /* Raise
